@@ -103,7 +103,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: initial;
     transition: all 0.2s ease-in;
 }
 
@@ -210,11 +210,11 @@ h1 {
 }
 
 /* Testimonios */
-.testimonios {
+.herramientas {
     padding: 40px 40px 80px 40px;
 }
 
-.testimonios .carousel {
+.herramientas .carousel {
     max-width: 800px;
 }
 
@@ -231,32 +231,32 @@ h1 {
     justify-content: center;
 }
 
-.testimonio-imagen {
+.herramientas-imagen {
     height: 150px;
     width: 150px;
     margin: 10px 10px 20px 10px;
 }
 
-.testimonio-texto {
+.herramientas-texto {
     max-width: 70%;
     font-size: 20px;
     text-align: center;
 }
 
-.testimonio-info {
+.herramientas-info {
     font-weight: bold;
     text-align: center;
 }
 
-.testimonio-info p {
+.herramientas-info p {
     margin-bottom: 0;
 }
 
-.testimonio-footer .cliente {
+.herramientas-footer .cliente {
     font-size: 1.2rem;
 }
 
-.testimonio-info .cargo {
+.herramientas-info .cargo {
     font-size: 0.9rem;
     color: black;
 }
@@ -381,12 +381,12 @@ footer {
 }
 
 @media screen and (max-width: 500px){
-    .testimonio-imagen {
+    .herramientas-imagen {
         height: 80px;
         width: 80px;
     }
 
-    .testimonio-texto {
+    .herramientas-texto {
         font-size: 18px;
     }
 }
